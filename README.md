@@ -4,7 +4,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'guitarparty-client'
+gem 'guitarparty_client'
 ```
 
 And then execute:
@@ -13,7 +13,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install guitarparty-client
+    $ gem install guitarparty_client
 
 Retrieve an API key from http://www.guitarparty.com/developers/api-key/
 
@@ -22,14 +22,14 @@ Retrieve an API key from http://www.guitarparty.com/developers/api-key/
 To initialize:
 
 ```ruby
-require 'guitarparty-client'
+require 'guitarparty_client'
 guitarparty = Guitarparty.new("API-KEY")
 ```
 
 To get song information:
 
 ```ruby
-require 'guitarparty-client'
+require 'guitarparty_client'
 guitarparty = GuitarpartyClient.new("API-KEY")
 
 guitarparty.song_by_name("Jolene")
@@ -52,7 +52,7 @@ To get lyrics/chords:
 
 
 ```ruby
-require 'guitarparty-client'
+require 'guitarparty_client'
 guitarparty = GuitarpartyClient.new("API-KEY")
 
 guitarparty.lyrics_by_name("Jolene")
@@ -73,7 +73,7 @@ Pl[G]ease don't take him, just because you [Am]can.
 To get artist information: 
 
 ```ruby
-require 'guitarparty-client'
+require 'guitarparty_client'
 guitarparty = GuitarpartyClient.new("API-KEY")
 
 guitarparty.artist_by_name("Dolly Parton")
@@ -101,7 +101,7 @@ Both return:
 To get only artist biography: 
 
 ```ruby
-require 'guitarparty-client'
+require 'guitarparty_client'
 guitarparty = GuitarpartyClient.new("API-KEY")
 
 guitarparty.bio_by_name("Dolly Parton")
@@ -114,7 +114,7 @@ Both return a string of the full bio as shown above.
 To get chord information: 
 
 ```ruby
-require 'guitarparty-client'
+require 'guitarparty_client'
 guitarparty = GuitarpartyClient.new("API-KEY")
 
 guitarparty.get_chord("Am")
