@@ -23,7 +23,7 @@ To initialize:
 
 ```ruby
 require 'guitarparty_client'
-guitarparty = Guitarparty.new("API-KEY")
+guitarparty = GuitarpartyClient.new("API-KEY")
 ```
 
 To get song information:
