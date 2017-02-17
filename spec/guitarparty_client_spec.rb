@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'json'
 
-API_CODE = "fc7fa665c719f7408ea0334905012b6a16a6e9b7"
+API_CODE = ""
 
 describe GuitarpartyClient do
   test_gp = GuitarpartyClient.new(API_CODE)
