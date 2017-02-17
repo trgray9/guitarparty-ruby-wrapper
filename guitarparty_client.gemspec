@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["trgray9@gmail.com"]
 
   spec.summary       = %q{A ruby wrapper for the Guitarparty API}
-  spec.description   = %q{Provides an easy to use Ruby gem to interact with the Guitarparty API}
+  spec.description   = %q{Provides an easy to use Ruby gem to interact with the Guitarparty API. To see usage information and view the source code, please go to https://github.com/trgray9/guitarparty-ruby-wrapper.}
   spec.homepage      = "https://github.com/trgray9/guitarparty-ruby-wrapper"
   spec.license       = "MIT"
 
